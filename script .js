@@ -1,5 +1,5 @@
 // IMPORTANT: Replace this with your actual DeepSeek API key
-const DEEPSEEK_API_KEY = "YOUR_DEEPSEEK_API_KEY_HERE";
+const DEEPSEEK_API_KEY = sk-7020d6017ad240d797c762d2abf62b38
 
 async function generateAds() {
     const product = document.getElementById('product').value;
