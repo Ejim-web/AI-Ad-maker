@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ad Maker - Create Ads Instantly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI Ad Maker</h1>
+        <p class="subtitle">Powered by DeepSeek AI</p>
 
+        <div class="form-group">
+            <label>What are you selling?</label>
+            <input type="text" id="product" placeholder="e.g., Wireless headphones with 40hr battery">
+        </div>
+
+        <div class="form-group">
+            <label>Who is your target audience?</label>
+            <input type="text" id="audience" placeholder="e.g., Fitness enthusiasts aged 25-40">
+        </div>
+
+        <div class="form-group">
+            <label>Brand Tone</label>
+            <select id="tone">
+                <option value="professional">Professional</option>
+                <option value="casual">Casual / Friendly</option>
+                <option value="urgent">Urgent / Scarcity</option>
+                <option value="luxury">Luxury / Premium</option>
+            </select>
+        </div>
+
+        <button id="generateBtn">✨ Generate AI Ads</button>
+
+        <div id="loading" class="loading" style="display:none">
+            <div class="spinner"></div>
+            <p>AI is thinking...</p>
+        </div>
+
+        <div id="error" class="error" style="display:none"></div>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
